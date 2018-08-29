@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #FBEEE6;
+  font-family: sans-serif;
+}
+
+header {
+  width: 1140px;
+  background-color:#EF4C27;
+  margin: 0 auto;
+  padding:10px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+div{
+  overflow: hidden;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  float: left
+}
+
+li {
+  float: left;
+  }
+
+li a {
+  text-decoration: none;
+  color: white;
+  line-height: 36px;
+  margin-left: 45px;
+}
+
+
+section {
+  width: 320px;
+  margin: 0 auto;
+  margin-left: 35%;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 30px;
+  box-sizing:border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+div.principal {
+  width: 40%
+  padding=auto;
+}
+
+.recordarme {
+  text-align: right;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+
+.login {
+  float: right;
+}
+
+.strong {
+ font-weight: bold;
+}
+
+.obligatorio{
+  font-size: 10px;
+  color: red;
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #2E86C1;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #2E86C1}
+
+.button:active {
+  background-color: #2E86C1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

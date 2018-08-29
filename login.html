@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="stylesheet" href="CSS/base.css">
+
+
+    </head>
+  <body>
+
+  <header>
+    <ul>
+       <li>
+         <img src="LOGO" alt="">
+           </li>
+           <li>
+             <a href="#">Reglas del Juego</a>
+           </li>
+           <li>
+             <a href="#">Acerca de Nosotros</a>
+           </li>
+         </ul>
+
+  <div  class= login>
+    <ul>
+           <li>
+             <a href="#">Home</a>
+           </li>
+           <li>
+             <a href="#">Registro</a>
+           </li>
+         </ul>
+  </div>
+  </header>
+
+  <section>
+  <br>
+  <br>
+  <h1> BIENVENIDO</h1>
+  <div class="principal">
+  <p>
+   <form class="registro" action="index.html" method="post"><br><br>
+   <p><label>Email </label><br>
+   <input type="text" id= "email" name="email" value="" placeholder="Ingrese su e-mail" required><br><br></p>
+   <p><label>Contraseña</label><br>
+   <input type="password" id= "password" name="password" value="" placeholder="Ingrese su contraseña" required><br><br>
+ </p>
+
+
+  <p class="recordarme">
+     <input id="recordarme" type="checkbox" name="recordarme"  required="" value="r">Recordarme
+        </input>
+     </p>
+
+<!– – /*Dejarlo para cuando encontremos un error en la carga del mail*/-->
+  <p>
+  <span class="obligatorio">La combinación ingresada de email y contraseña no es válida.</span>
+  </p>
+
+<div class="botones">
+  <p class="botones">
+      <button class="button" type="button" name="button"> Ingresar
+        </button>
+  </p>
+</div>
+
+  </form>
+  </div>
+  </section>
+
+  </body>
+</html>
