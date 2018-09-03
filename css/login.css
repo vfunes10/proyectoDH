@@ -3,63 +3,44 @@
 }
 
 body {
-  background: #FBEEE6;
-  font-family: sans-serif;
+  font-family: ASAP, sans-serif;
+  width: 320px;
+
 }
 
 header {
-  width: 1140px;
-  background-color:#EF4C27;
-  margin: 0 auto;
-  padding:10px;
-  overflow: hidden;
-  border-radius: 10px;
-}
+  background-color:black;
+  }
 
-div{
+nav{
   overflow: hidden;
 }
 
 ul {
   list-style-type: none;
-  overflow: hidden;
-  float: left
 }
 
-li {
+a {
+  text-decoration: none;
+  color: white;
+}
+.barrita{
+  width: 40px;
+  height: 30,45px;
+  float:right;
+}
+
+.Logo {
+  width: 40px;
+  height: 30,45px;
+  color: white;
   float: left;
   }
 
-li a {
-  text-decoration: none;
-  color: white;
-  line-height: 36px;
-  margin-left: 45px;
-}
 
-
-section {
-  width: 320px;
-  margin: 0 auto;
-  margin-left: 35%;
-  margin-bottom: 15px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 30px;
-  box-sizing:border-box;
-}
 
 h1 {
   text-align: center;
-}
-
-div.principal {
-  width: 40%
-  padding=auto;
-}
-
-.recordarme {
-  text-align: right;
 }
 
 input[type=text] {
@@ -77,36 +58,13 @@ input[type=password] {
 }
 
 
-.login {
-  float: right;
+
+@media (min-width:768px) {
+
 }
 
-.strong {
- font-weight: bold;
-}
 
-.obligatorio{
-  font-size: 10px;
-  color: red;
-}
+@media (min-width:1180px) {
 
-.button {
-  padding: 15px 25px;
-  font-size: 15px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  color: #fff;
-  background-color: #2E86C1;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 0 9px #999;
-}
-
-.button:hover {background-color: #2E86C1}
-
-.button:active {
-  background-color: #2E86C1;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+  }
 }

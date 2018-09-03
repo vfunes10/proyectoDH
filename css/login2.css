@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
+  width: 300px;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  opacity: 0.8;
+  }
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 50px;
+  height: 35px;
+  margin:10px;
+}
+
+.logo {
+  width: 40px;
+  height: 30,45px;
+  margin:10px;
+  color: white;
+  }
+
+nav.desktop {
+  display: none;
+}
+
+div.social-media {
+  background-color: #5C6BC0;
+  border-radius: 25px;
+  border-color: 10px solid #5C6BC0;
+}
+
+li.social-media{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+  }
+
+a.social-media{
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.principal{
+  border-top: 2px solid #E0E0E0;
+  border-bottom: 2px solid #E0E0E0;
+}
+
+h5 {
+  text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  }
+
+
+a.fin {
+  color: black;
+}
+
+p.fin {
+  font-size: 0.5em
+}
+
+@media (min-width:768px) {
+
+}
+
+
+@media (min-width:1180px) {
+
+body {
+  width: 1100px;
+  }
+
+section{
+  width: 300px;
+  margin-left: 40%;
+}
+
+img.menu {
+    display: none;
+  }
+nav.desktop {
+    display: flex;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+}
+nav.desktop {
+  width: 70%;
+  display: flex;
+  color: white;
+}
+nav.desktop a{
+  color: white;
+  font-size: 15px;
+  margin-top: 13px;
+}
+
+
+
+
+}
