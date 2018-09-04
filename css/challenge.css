@@ -1,5 +1,7 @@
 /* Reseteos Generales */
-*{box-sizing: border-box;}
+*{
+  box-sizing: border-box;
+}
 ul, ol {
   padding: 0;
   }
@@ -11,12 +13,14 @@ a{
   color: #000;
 }
 body {
-
+font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
+margin: 0;
 }
 
-/*div.contenedor {
+.container {
+  max-width: 980px;
   margin: 0 auto;
-}*/
+}
 
 header {
   background-color: black;
@@ -60,6 +64,7 @@ div.centro{
 h1 {
   text-align: center;
   color: white;
+  font-size: 2em;
   letter-spacing: 3px;
   font-family: GandhiSerif-Regular;
   /*position: absolute;
@@ -102,34 +107,61 @@ p {
   left: 12%;*/
 }
 footer{
-  height: 300px;
   background-color: black;
+  font-size: 0.5em;
+  padding-top: 5%;
   }
 .footer-item-menu{
-  display: block;
-  width: 40%;
-  color: white;
-}
-.footer-menu{
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  color: white;
+  margin-top: 3px;
+  margin-bottom: 3px;
 }
+.footer-menu{
+  display: none;
+}
+
+.social-media-mobile{
+  display: none;
+}
+
 .social-media{
-  width: 50px;
-  height: 50px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+}
+.copyright-left{
+  order:2;
 }
 .social-media img{
   width: 35px;
   margin: 5px;
 }
-.arg img{
-  width: 30px;
-  height: 15px;
+.copyright-right {
+  order: 1;
+  flex-direction: column-reverse;
+  display: flex;
+  align-items: center;
 }
+.social-media-mobile {
+  display: block;
+  order:3;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 30%;
+  margin-top: 20px;
+}
+
+.social-media-mobile a {
+
+}
+
+.social-media-mobile img{
+  width: 30px;
+}
+
 div.arg {
   display: flex;
   justify-content: center;
@@ -137,6 +169,13 @@ div.arg {
 nav.desktop{
   display: none;
 }
+.footer-copyright{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 @media (min-width: 490px) {
   img.menu{
     display: none;
@@ -149,30 +188,43 @@ nav.desktop{
     width: 70%;
     display: flex;
     color: white;
+    align-items: center;
   }
   nav.desktop a{
     color: white;
     font-size: 15px;
-    margin-top: 13px;
   }
-  footer.mobile{
-    display: none;
-  }
-  footer.desktop{
+  footer.container{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
   }
-  div.container{
-    position:relative;
-  }
-  footer.desktop2{
-    display:flex;
+  .footer-menu{
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
   }
-  .desktop2 img{
-    margin-top: 13px;
+  .footer-copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 90px;
+    padding: 0 3%;
+  }
+  .copyright-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .copyright-right img {
+    margin-left: 20px;
+    width: 30px;
+    height: 15px;
   }
   div.centro{
     background-image: url(../img/Fondo_Desktop-05.png);
+  }
+  .social-media-mobile {
+    display: none;
+  }
 }
