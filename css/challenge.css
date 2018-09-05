@@ -17,6 +17,10 @@ font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
 margin: 0;
 }
 
+section {
+  width: 300px;
+  }
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -52,6 +56,26 @@ header nav {
   float: right;
 }*/
 
+.button-facebook {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  text-transform: uppercase;
+  background-color: #5C6BC0;
+  border: none;
+  border-radius: 25px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+
+div.principal{
+    border-top: 2px solid #E0E0E0;
+    border-bottom: 2px solid #E0E0E0;
+  }
+
 div.centro{
   height: 90vh;
   background-image: url(../img/fondo.png);
@@ -61,12 +85,13 @@ div.centro{
   flex-direction: column;
   justify-content: space-around;
 }
+
 h1 {
   text-align: center;
   color: white;
   font-size: 2em;
   letter-spacing: 3px;
-  font-family: GandhiSerif-Regular;
+  font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
   /*position: absolute;
   top: 35%;*/
 }
@@ -154,10 +179,6 @@ footer{
   margin-top: 20px;
 }
 
-.social-media-mobile a {
-
-}
-
 .social-media-mobile img{
   width: 30px;
 }
@@ -173,6 +194,72 @@ nav.desktop{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+h5 {
+  text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=password] {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+input[type=text].nacimiento {
+    width: 32%;
+    padding: 3px 15px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    color: #E0E0E0;
+    font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
+}
+
+form.nacimiento{
+  display:flex;
+  justify-content: space-around;
+}
+
+span.strong {
+  color: #AEB6BF;
+  font-size: 0.8em;
+  }
+
+span.genero{
+  color: #AEB6BF;
+  font-size: 0.8em;
+  }
+
+.button {
+  width: 100%;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 25px;
+  }
+
+a.fin {
+  color: black;
+}
+
+p.fin {
+  color: black;
+  font-size: 0.5em
 }
 
 
@@ -226,5 +313,10 @@ nav.desktop{
   }
   .social-media-mobile {
     display: none;
+}
+
+  section {
+      width: 300px;
+      margin-left: 40%;
   }
 }
