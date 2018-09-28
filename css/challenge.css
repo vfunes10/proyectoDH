@@ -39,7 +39,10 @@ header nav {
   /*overflow: hidden;
   padding: 10px;*/
 }
-
+.mensaje-error {
+  color: red;
+  font-size: 12px;
+}
 .logo {
   width: 40px;
   height: 30.45px;
@@ -89,7 +92,6 @@ div.centro{
 h1 {
   text-align: center;
   color: white;
-  font-size: 2em;
   letter-spacing: 3px;
   font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
   /*position: absolute;
@@ -105,6 +107,14 @@ p {
   position: absolute;
   top: 65%;
   left: 4%;*/
+}
+.mensaje-error {
+  color: red;
+  font-size: 12px;
+}
+.errorFormControl{
+  border: 1px solid red;
+  color: red;
 }
 
 .btnjugar {
@@ -208,6 +218,15 @@ input[type=text] {
     border-radius: 10px;
 }
 
+input[type=email]{
+   width: 100%;
+   padding: 10px 15px;
+   margin: 8px 0;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+
+
 input[type=password] {
     width: 100%;
     padding: 10px 15px;
@@ -222,7 +241,7 @@ input[type=text].nacimiento {
     margin: 2px 0;
     box-sizing: border-box;
     border-radius: 10px;
-    color: #E0E0E0;
+    color: black;
     font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
 }
 
@@ -309,7 +328,7 @@ p.fin {
     height: 15px;
   }
   div.centro{
-    background-image: url(../img/Fondo_Desktop-05.png);
+    background-image: url(../img/fondo_desktop-05.png);
   }
   .social-media-mobile {
     display: none;
