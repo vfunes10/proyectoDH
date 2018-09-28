@@ -1,6 +1,11 @@
 <?php
 include_once("funciones.php");
 
+/*$paises = [
+  "ar" => "Argentina",
+  "co" => "Colombia",
+  "uy" => "Uruguay"
+];*/
 
 $errores = [];
 $usernameDefault = "";
@@ -56,12 +61,12 @@ $usuario = crearUsuario($usuario);
                 <img class="menu" src="img/barrita.png" alt="barrita">
               </a>
               <nav class="desktop">
-                <a href="index.php">Home</a>
+                <a href="index.html">Home</a>
                 <a href="#">Acerca</a>
                 <a href="#">Challenge</a>
-                <a href="reg.php">Registrate</a>
+                <a href="reg.html">Registrate</a>
                 <p>  |  </p>
-                <a href="login2.php">Inciar sesión</a>
+                <a href="login2.html">Inciar sesión</a>
               </nav>
             </nav>
           </div>
@@ -122,7 +127,7 @@ $usuario = crearUsuario($usuario);
     <input type="password" id= "user" name="password" value="" placeholder="Contraseña" >
   <?php endif; ?>
 
-   <br><br><br>
+   <br>
      <label for="nacimiento"><span class="strong">Fecha de Nacimiento</span>
       </label>
    <p></p>
@@ -166,7 +171,7 @@ $usuario = crearUsuario($usuario);
       </div>
   <?php endif; ?>
 
-<br><br>
+
 
           <?php if (isset($_POST["genero"]) && $_POST["genero"] == "m") : ?>
             <input id="genero" type="radio" name="genero" value="m" checked>
@@ -211,7 +216,7 @@ $usuario = crearUsuario($usuario);
 
 </div>
 <div class="fin">
-  <h5>¿Ya tenes una cuenta? <strong><a class="fin" href="login2.php">Iniciar sesión</a></strong></h5>
+  <h5>¿Ya tenes una cuenta? <strong><a class="fin" href="login2.html">Iniciar sesión</a></strong></h5>
 </div>
 
 </div>

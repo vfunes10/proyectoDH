@@ -1,1 +1,16 @@
-[{"user":"jbeistegui","email":"julieta@viaedu.com","password":"$2y$10$7nKtj87xVvKz1K4TtIaBdOxIrsRL4U8s6OFbEa8saCnTa7gWGYpVG","genero":"femenino","fecha_De_Nacimiento":"09\/09\/1983"},{"user":"vero","email":"vero@test.com","password":"$2y$10$1053PjCpqJg425sEivDIy.SHsQc3xe3CzVf3NR3KAGlO1w2AyxZ2m","genero":"femenino","fecha_De_Nacimiento":"1\/1\/1973"},{"user":"vfunes","email":"vfunes@hotmail.com","password":"$2y$10$xejeTRF3x5bb6ho6jGYG9uielLCbMEpWRfS.bMn4lw8hGF9LHMtsi","genero":"femenino","fecha_De_Nacimiento":"15\/12\/1973"}]
+[
+  {
+    "user": "jbeistegui",
+    "email": "julieta@viaedu.com",
+    "password": "$2y$10$7nKtj87xVvKz1K4TtIaBdOxIrsRL4U8s6OFbEa8saCnTa7gWGYpVG",
+    "genero": "femenino",
+    "fecha_De_Nacimiento": "09/09/1983"
+  },
+  {
+    "user": "vero",
+    "email": "vero@test.com",
+    "password": "$2y$10$1053PjCpqJg425sEivDIy.SHsQc3xe3CzVf3NR3KAGlO1w2AyxZ2m",
+    "genero": "femenino",
+    "fecha_De_Nacimiento": "1/1/1973"
+  }
+]
