@@ -37,6 +37,7 @@ $usuario = crearUsuario($usuario);
     <title>Login</title>
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <link rel="stylesheet" href="css/challenge.css">
+    <link rel="shortcut icon" type="image/png" href="img/barrita.png">
     </head>
 
     <body>

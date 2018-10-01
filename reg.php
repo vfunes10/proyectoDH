@@ -46,6 +46,7 @@ $usuario = crearUsuario($usuario);
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Registracion</title>
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/barrita.png">
     <link rel="stylesheet" href="css/challenge.css">
     </head>
 
@@ -61,12 +62,12 @@ $usuario = crearUsuario($usuario);
                 <img class="menu" src="img/barrita.png" alt="barrita">
               </a>
               <nav class="desktop">
-                <a href="index.html">Home</a>
+                <a href="index.php">Home</a>
                 <a href="#">Acerca</a>
                 <a href="#">Challenge</a>
-                <a href="reg.html">Registrate</a>
+                <a href="reg.php">Registrate</a>
                 <p>  |  </p>
-                <a href="login2.html">Inciar sesión</a>
+                <a href="login2.php">Inciar sesión</a>
               </nav>
             </nav>
           </div>
@@ -216,7 +217,7 @@ $usuario = crearUsuario($usuario);
 
 </div>
 <div class="fin">
-  <h5>¿Ya tenes una cuenta? <strong><a class="fin" href="login2.html">Iniciar sesión</a></strong></h5>
+  <h5>¿Ya tenes una cuenta? <strong><a class="fin" href="login2.php">Iniciar sesión</a></strong></h5>
 </div>
 
 </div>

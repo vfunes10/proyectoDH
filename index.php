@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/challenge.css">
+    <link rel="shortcut icon" type="image/png" href="img/barrita.png">
     <title>Challenge</title>
   </head>
-  <body> 
+  <body>
     <div class="">
       <header>
         <div class="container">
