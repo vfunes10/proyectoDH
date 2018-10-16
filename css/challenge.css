@@ -91,7 +91,6 @@ div.centro{
 }
 h1 {
   text-align: center;
-  background-color: blue;
   color: white;
   letter-spacing: 3px;
   font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
@@ -287,7 +286,7 @@ p.fin {
 }
 
 h1.title{
-  color:white;
+  color:blue;
 }
 
 @media (min-width: 490px) {
