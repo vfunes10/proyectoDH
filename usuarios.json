@@ -1,16 +1,1 @@
-[
-  {
-    "user": "jbeistegui",
-    "email": "julieta@viaedu.com",
-    "password": "$2y$10$7nKtj87xVvKz1K4TtIaBdOxIrsRL4U8s6OFbEa8saCnTa7gWGYpVG",
-    "genero": "femenino",
-    "fecha_De_Nacimiento": "09/09/1983"
-  },
-  {
-    "user": "vero",
-    "email": "vero@test.com",
-    "password": "$2y$10$1053PjCpqJg425sEivDIy.SHsQc3xe3CzVf3NR3KAGlO1w2AyxZ2m",
-    "genero": "femenino",
-    "fecha_De_Nacimiento": "1/1/1973"
-  }
-]
+[{"id":1,"email":"javiertaboadamail@gmail.com","user":"jtab","password":"$2y$10$8AymW\/RkqkoiITnnZwlqoug6LgTfG3p.\/ny716zG28HtmA56\/q6v.","genero":"masculino","fecha_De_Nacimiento":"13\/12\/1999"},{"id":2,"email":"javiertaboadamail@gmail.com11","user":"jtab","password":"$2y$10$I3WHdXuxQVtKaEVRoLnrgOV0wQMW9xugO\/HeeWnkx6fRXJuk1Hi1S","genero":"masculino","fecha_De_Nacimiento":"13\/12\/1999"},{"id":3,"email":"maxi@maxi.com","user":"max","password":"$2y$10$dMGcxDgW7yjR80vpU7ARwOGCsI5dJUhFf\/LwjK9nl2qpZgMnGEjyy","genero":"masculino","fecha_De_Nacimiento":"12\/03\/2008"},{"id":4,"email":"k@k.com","user":"k","password":"$2y$10$RY1VH3xk0qi.QoaHN\/pgVOBp1HGUEoeb1SkVEwE9PZVxgGKhnHEYC","genero":"Prefiero no decirlo","fecha_De_Nacimiento":"11\/11\/1911"}]

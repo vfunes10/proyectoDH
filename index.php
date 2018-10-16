@@ -4,31 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/challenge.css">
-    <link rel="shortcut icon" type="image/png" href="img/barrita.png">
     <title>Challenge</title>
   </head>
   <body>
     <div class="">
-      <header>
-        <div class="container">
-          <nav>
-            <a href="#">
-              <img class="logo" src="img/logo.png" alt="logotipo">
-            </a>
-            <a href="#">
-              <img class="menu" src="img/barrita.png" alt="barrita">
-            </a>
-            <nav class="desktop">
-              <a href="index.php">Home</a>
-              <a href="#">Acerca</a>
-              <a href="#">Challenge</a>
-              <a href="reg.php">Registrate</a>
-              <p>  |  </p>
-              <a href="login2.php">Inciar sesión</a>
-            </nav>
-          </nav>
-        </div>
-      </header>
+
+      <?php include_once("header.php") ?>
       <div class="centro">
         <div class="container">
           <h1>
@@ -59,7 +40,7 @@
             <li><a href="#"><img src="IMG/instagram.png" alt=""></a></li>
         </ul>
         <div class="arg">
-            <img src="IMG/arg.png" alt="">
+            <img src="img/arg.png" alt="">
         </div>
         <p>ARGENTINA</p>
         <p>(C) Challenge. Todos los derecgos reservados.</p>
