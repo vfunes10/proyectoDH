@@ -19,7 +19,7 @@
   <div class="contenedor">
     <?php include("header.php") ?>
     <div class="principal">
-      <h1>Bienvenido al perfil de <?=$usuario["nombre"]?></h1>
+      <h1 class="title">Bienvenido al perfil de <?=$usuario["email"]?></h1>
       <ul>
         <li>ID: <?=$usuario["id"]?></li>
         <li>Usuario: <?=$usuario["user"]?></li>
