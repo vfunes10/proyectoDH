@@ -42,6 +42,7 @@ header nav {
 .mensaje-error {
   color: red;
   font-size: 12px;
+  margin-top: 0px;
 }
 .logo {
   width: 40px;
@@ -88,9 +89,9 @@ div.centro{
   flex-direction: column;
   justify-content: space-around;
 }
-
 h1 {
   text-align: center;
+  background-color: blue;
   color: white;
   letter-spacing: 3px;
   font-family: GandhiSerif-Regular, DINPro, ASAP, sans-serif;
@@ -255,6 +256,10 @@ span.strong {
   font-size: 0.8em;
   }
 
+.generoBox{
+  padding-top: 12px;
+}
+
 span.genero{
   color: #AEB6BF;
   font-size: 0.8em;
@@ -281,6 +286,9 @@ p.fin {
   font-size: 0.5em
 }
 
+h1.title{
+  color:white;
+}
 
 @media (min-width: 490px) {
   img.menu{
