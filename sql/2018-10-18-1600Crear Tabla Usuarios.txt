@@ -1,0 +1,12 @@
+  CREATE TABLE `usuarios` (
+  `id` int(11) NOT NULL,
+  `email` varchar(45) NOT NULL,
+  `user` varchar(45) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `genero` varchar(45) NOT NULL,
+  `fecha_De_Nacimiento` date NOT NULL,
+  `create_at` datetime NOT NULL,
+  `update_at` datetime NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `email_UNIQUE` (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
